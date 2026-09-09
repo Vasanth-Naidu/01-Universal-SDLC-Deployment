@@ -38,9 +38,9 @@
 
 ## 4. Measurable Business Results & Impact:
 
-| Strategic Pillar | Technical & Turnaround Impact | Business & Financial Outcome |
+| 📌 STRATEGIC PILLAR | 🛠️ TECHNICAL & TURNAROUND IMPACT | 🎯 BUSINESS & FINANCIAL OUTCOME |
 | :--- | :--- | :--- |
-| **Wholesale Payments IA** | Deployed and rescued ML and RPA models across high-volume operational workflows[cite: 1]. | **$1.0M+ YoY cost elimination**[cite: 1]. |
+| **Wholesale Payments IA** | Deployed and rescued ML and RPA models across high-volume operational workflows. | **$1.0M+ YoY cost elimination**[cite: 1]. |
 | **IS Control Standards** | Certified 800+ RPA solutions under unified enterprise security controls[cite: 1]. | **100% compliance** across active bots[cite: 1]. |
 | **PNS UDT Remediation** | Remediated high-risk legacy automation assets and operational vulnerabilities[cite: 1]. | **$325,000 USD cost avoidance**[cite: 1]. |
 | **Regulatory & OCC Audit** | Implemented 15 audit/process controls across payment operations[cite: 1]. | **Satisfactory 2020 OCC Audit rating**[cite: 1]. |
