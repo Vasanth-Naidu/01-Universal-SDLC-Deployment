@@ -57,5 +57,4 @@
 ### Key Project Case Studies
 * 📁 **[01: TradeExpress ML Engine — High-Volume Trade Processing & 15-Control Risk Governance Engine](./01-Trade-Payment-Automation-ML/Case-Study.md)**
 
-### Key Project Case Studies
-* 📁 **[01: TradeExpress ML Engine — High-Volume Trade Processing & 15-Control Risk Governance Engine](./01-Trade-Payment-Automation-ML/Case-Study.md)**
+---
