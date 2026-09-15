@@ -52,6 +52,8 @@ To optimize frontline UX and compress processing times without altering the newl
 
 ```
 
+![TradeExpress ML Engine Solution Architecture](./assets/TradeExpress%20ML%20Engine%20solution-architecture.png)
+
 ### Component Breakdown:
 
 1. **Python Pattern Mining Engine:** Executed automated batch scripts every Sunday to extract historical transaction logs. Cleaned, normalized, and extracted unique transaction combinations across trade documents to build an evolving pattern repository.
