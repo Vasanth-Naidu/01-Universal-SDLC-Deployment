@@ -51,3 +51,11 @@
 * **Executive IA Governance:** Establishing firmwide control benchmarks, risk remediation frameworks, and continuous health monitoring for 800+ bots[cite: 1].
 * **Hands-On RPA Expertise:** Direct technical proficiency in UiPath, Automation Anywhere, and Xceptor bot architecture, queue management, and exception handling[cite: 1].
 * **Parachute Project Management:** Ability to step directly into troubled or audit-escalated automation projects, diagnose technical debt, and drive rapid recovery.
+
+---
+
+### Key Project Case Studies
+* 📁 **[01: TradeExpress ML Engine — High-Volume Trade Processing & 15-Control Risk Governance Engine](./01-Trade-Payment-Automation-ML/Case-Study.md)**
+
+### Key Project Case Studies
+* 📁 **[01: TradeExpress ML Engine — High-Volume Trade Processing & 15-Control Risk Governance Engine](./01-Trade-Payment-Automation-ML/Case-Study.md)**
