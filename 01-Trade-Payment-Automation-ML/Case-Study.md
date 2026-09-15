@@ -12,7 +12,7 @@
 ## 1. Operational Challenge & Architectural Bottlenecks:
 
 ### The Frontline Friction:
-Trade Operations specialists processing international trade documentation (Letters of Credit [LC], Bills of Lading, SWIFT messaging series) were required to enter complex transaction data into **TPS**, a newly deployed, state-of-the-art enterprise payment platform.
+Trade Operations specialists processing international trade documentation (`Letters of Credit` [LC], `Bills of Lading` [BL], `Society for Worldwide Interbank Financial Telecommunication` [SWIFT] messaging series) were required to enter complex transaction data into **TPS**, a newly deployed, state-of-the-art enterprise payment platform.
 
 While TPS was a modern platform, it was still settling down in terms of frontline user experience (UX). Due to massive daily transaction volumes, high screen refresh rates, and multi-tab navigation pathways, operators experienced significant input latency per trade.
 
@@ -27,7 +27,7 @@ While TPS was a modern platform, it was still settling down in terms of frontlin
 As the **Bangalore Location Lead** for the WPO Intelligent Automation team, spearheaded end-to-end delivery of the project while guiding daily team execution and taking direct technical custody of core software components:
 * **Location & Delivery Management:** Managed the Bangalore-based project team on a day-to-day basis, establishing daily operational guidelines, assigning sprint tasks, managing timelines, and aligning delivery milestones with global stakeholders.
 * **Hands-On MS Access Architecture & Development:** Personally designed and developed the dual-tier MS Access application—building both the front-end user interface (UI) and the back-end relational database pattern matching store.
-* **SDLC Documentation Architecture:** Personally authored the complete SDLC documentation package, including Business Requirement Documents (BRD), Functional Specifications (FSD), Solution Design Documents (SDD), End User Guides, and UAT execution runbooks.
+* **SDLC Documentation & Core Platform Absorption SME:** Personally authored the complete SDLC documentation package—including BRDs, FSDs, SDDs, and User Guides[cite: 11]. When core technology teams initiated platform absorption, authored the formal TPS Absorption Requirement Document and served as the primary Technical SME to guide core engineering teams during native feature integration[cite: 11].
 
 ---
 
@@ -66,8 +66,8 @@ To optimize frontline UX and compress processing times without altering the newl
 
 2. **Dual-Tier MS Access Workspace (Front-End UI/ Back-End DB — Personally Built):**
 * **Pattern Matching:** Specialists enter 6 to 9 core trade fields (e.g., Primary Beneficiary, Seller ID, Shipping Port, Product Type). The engine instantly queries the back-end pattern store.
-* **Scenario A (Existing Pattern):** Matches are presented in a selection UI. Upon selection, the tool auto-populates **70+ static/semi-static fields** (SWIFT routing, bank codes, standard LC clauses, packaging requirements).
-* **Scenario B (New Pattern / Adaptive Intake):** If no match exists, the specialist enters full transaction details. Upon validation, the engine logs and learns the new combination, expanding the back-end database automatically.
+  * **Scenario A (Existing Pattern):** Matches are presented in a selection UI. Upon selection, the tool auto-populates **70+ static/semi-static fields** (SWIFT routing, bank codes, standard LC clauses, packaging requirements).
+  * **Scenario B (New Pattern/ Adaptive Intake):** If no match exists, the specialist enters full transaction details. Upon validation, the engine logs and learns the new combination, expanding the back-end database automatically.
 
 3. **Maker-Checker QA Workflow:** Maker submits the pattern-populated record to an internal MS Access checker queue. The Checker performs rapid 1-click QA verification against the physical trade document and approves the record for bot execution.
 
@@ -87,7 +87,7 @@ To satisfy stringent regulatory frameworks, internal audit protocols, and Operat
 ├───────────────────────────────┼───────────────────────────────┼────────────────────────┤
 │ 1. Numeric & Amount Threshold │ 6. BIC/SWIFT Validation       │ 11. Strict SoD & Role  │
 │ 2. Currency/Amount Syntax     │ 7. Beneficiary Bank Routing   │     Governance         │
-│ 3. Address Format Standardizer│ 8. IBAN Mod-97 Checksum       │ 12. >$500K High-Value  │
+│ 3. Address Format Standardizer│ 8. Account Syntax & Length    │ 12. >=$1M High-Value   │
 │ 4. LC Expiry Date Logic       │ 9. Restricted Port Matrix     │     Manager Escalate   │
 │ 5. Duplicate Trade Detector   │ 10. OFAC/PEP Sanctions        │ 13. Human-in-the-Loop  │
 │                               │      Scrubber                 │     Final Submission   │
@@ -99,24 +99,24 @@ To satisfy stringent regulatory frameworks, internal audit protocols, and Operat
 
 #### 1. Data Integrity & Financial Controls:
 1. **Numeric & Amount Threshold Validation:** Cross-checks transaction amounts against predefined Letter of Credit limits, flagging abnormal variances or unauthorized credit extensions prior to entry.
-2. **Currency & Decimal Syntax Checker:** Enforces ISO currency code pairings and decimal placement standards to prevent multi-million-dollar transposition errors (e.g., preventing $1,000.00 from being entered as $100,000).
+2. **Currency & Decimal Syntax Checker:** Enforces `International Organization for Standardization` (ISO) currency code pairings and decimal placement standards to prevent multi-million-dollar transposition errors (e.g., preventing $1,000.00 from being entered as $100,000).
 3. **Address Format Standardizer:** Validates buyer/seller addresses against standardized postal/international shipping formats, preventing document rejection at foreign customs ports.
 4. **LC Expiry & Presentation Date Logic:** Checks shipping and presentation dates against the LC validity period, preventing processing of expired trade instruments.
 5. **Duplicate Trade Reference Detector:** Real-time hash matching across historical transaction databases to catch and block duplicate submission of the same LC or invoice reference number.
 
 #### 2. Banking, Foreign Exchange & Sanctions Controls:
-6. **BIC/SWIFT Code Auto-Validation:** Verifies Bank Identifier Codes (BIC) against official ISO SWIFT registries to eliminate misrouted international wire transfers.
+6. **BIC/SWIFT Code Auto-Validation:** Verifies `Bank Identifier Codes` (BIC) against official ISO SWIFT registries to eliminate misrouted international wire transfers.
 7. **Beneficiary Bank Routing Match:** Ensures the receiving bank corresponds strictly to the verified issuing/advising bank pairing stored in the approved pattern database.
-8. **IBAN Structure & Mod-97 Checksum Engine:** Runs ISO 7064 Mod-97 mathematical validation algorithms on foreign bank account numbers (rearranging country/checksum codes and dividing by 97 to confirm a remainder of 1) before populating system screens, blocking misrouted international transfers caused by typos.
+8. **Account Number Structure & Syntax Validation:** Runs structural validation checks and country-specific account length rules on foreign bank accounts before populating system screens, blocking misrouted international transfers caused by typos or missing digits.
 9. **Restricted Port & Trade Route Matrix:** Cross-references origin/destination shipping ports against prohibited international maritime trade routes.
-10. **OFAC & PEP Sanctions Keyword Scrubber:** Scans free-text LC fields against global watchlists for Office of Foreign Assets Control (OFAC) embargoed entities/vessels and Politically Exposed Persons (PEP) high-risk government individuals to prevent financial crime violations.
+10. **OFAC & PEP Sanctions Keyword Scrubber:** Scans free-text LC fields against global watchlists for `Office of Foreign Assets Control` (OFAC) embargoed entities/vessels and `Politically Exposed Persons` (PEP) high-risk government individuals to prevent financial crime violations.
 
 #### 3. Access Governance, Escalation & Audit Controls:
-11. **Strict Maker-Checker Separation of Duties (SoD) & Role Governance:** Hardcoded application logic preventing any Maker from checking their own work. Enforces a strict onboarding entitlement workflow: any dynamic intra-day role switch (Maker to Checker or Checker to Maker due to daily volume spikes or staffing constraints) requires formal, documented Operational Manager approval before access rights are updated in the database.
-12. **High-Value Transaction ($500K+ USD) Manager Escalation:** Any trade transaction exceeding $500,000 USD is automatically flagged and routed to a specialized queue for mandatory, rapid pre-execution review by Operational Managers and Risk Leads prior to bot release.
+11. **Strict Maker-Checker Separation of Duties (SoD) & Monthly Access Audits:** Hardcoded application logic strictly prevents any Maker from auditing or checking their own transaction entries[cite: 11]. Enforces formal entitlement workflows for dynamic role switches, paired with a mandatory monthly user access audit conducted in direct collaboration with Operational Managers and OCMs (First Line of Defense) to recertify user privileges[cite: 11].
+12. **High-Value Transaction ($1M USD) Manager Escalation:** Any trade transaction equal to or exceeding $1M USD is automatically flagged and routed to a specialized queue for mandatory, rapid pre-execution review by Operational Managers and Risk Leads prior to bot release.
 13. **Human-in-the-Loop Final Submission Gate:** The AA bot is programmatically blocked from executing the final `SUBMIT` button in the core application, forcing human-in-the-loop review and accountability.
-14. **System-Wide Audit Trail Logging:** Logs timestamped actions (Pattern Generation → Maker Selection → Role Authorization → Checker QA → $500K+ Escalate → Bot Injection → Human Submit) with specific user IDs for total traceability during regulatory audits.
-15. **RPA Exception Trapping & Automated Disaster Recovery:** The AA bot validates UI element loads before entering data; if screen refresh latency causes UI delays, the bot safely rolls back the transaction. Concurrently, scheduled background backups write encrypted snapshots to secure network locations to ensure data custody.
+14. **System-Wide Audit Trail Logging:** Logs timestamped actions (Pattern Generation → Maker Selection → Role Authorization → Checker QA → $1M + Escalate → Bot Injection → Human Submit) with specific user IDs for total traceability during regulatory audits.
+15. **RPA Exception Trapping & Dedicated Backup Utility:** The AA bot validates UI loads before entering data, safely rolling back transactions upon screen refresh delays[cite: 11]. Concurrently, deployed a separate, dedicated MS Access background utility that executed automated weekend database backups to restricted network drives, ensuring business continuity and SOX/CSA data custody[cite: 11].
 
 ---
 
@@ -126,7 +126,7 @@ A primary objective of enterprise-grade Intelligent Automation governance is ens
 
 * **12 Months Production Operational Runway:** Served as the high-velocity operational bridge while core TPS engineering teams stabilized UI refresh rates, optimized database query indexing, and built native API data ingestion pathways.
 * **Firmwide IS Control Standards Compliance:** Maintained 100% compliance attestations, security logging, and access control audit readiness throughout its active deployment lifecycle.
-* **Systematic Remediation & Product Absorption:** Partnered with core Technology and Architecture teams to transition the bot's pattern-recognition logic, validation rules, and auto-population features directly into native TPS code.
+* **Systematic Remediation & Product Absorption:** Authored the formal requirement specification for TPS absorption and served as the technical SME alongside core Tech teams, transitioning pattern-matching logic, validation rules, and auto-population workflows directly into native TPS code[cite: 11].
 * **Decommissioning & Target Date Adherence:** Once native TPS updates were released to production, the automation bot and MS Access DB were systematically decommissioned according to firmwide repository lifecycle guidelines—eliminating operational risk and achieving complete technology product absorption.
 
 ---
@@ -145,10 +145,11 @@ A primary objective of enterprise-grade Intelligent Automation governance is ens
 
 ## 7. Key Competencies Demonstrated:
 
-* **Full-Lifecycle Automation Governance:** Managing automation assets from initial business intake to operational deployment, IS Control compliance, and eventual decommissioning via native platform absorption.
-* **Location & Project Management:** Directing day-to-day operations, task allocation, and delivery guidelines for the Bangalore Intelligent Automation engineering team.
-* **Hands-On Desktop Engineering:** Designing and coding custom 2-tier MS Access front-end interfaces and back-end relational pattern databases.
-* **Full SDLC Ownership:** Authoring end-to-end documentation suites (BRD, FSD, SDD, User Manuals) to bridge operational requirements with technical delivery.
-* **Risk & Controls Architecture:** Designing and implementing robust regulatory controls (15 Audit/Process Controls) in high-risk Wholesale Payment & International Trade environments.
+* **Full-Lifecycle Automation Governance:** Managing automation assets from initial business intake to operational deployment, IS Control compliance, and eventual decommissioning via native platform absorption[cite: 1].
+* **Location & Project Management:** Directing day-to-day operations, task allocation, and delivery guidelines for the Bangalore Intelligent Automation engineering team[cite: 1].
+* **Hands-On Desktop Engineering:** Designing and coding custom 2-tier MS Access front-end interfaces and back-end relational pattern databases[cite: 1].
+* **Application Maintenance & Zero-Downtime Operations:** Personally managed end-to-end support, ongoing maintenance, and regular weekend tool health checks to guarantee 100% operational availability and prevent weekday downtime or operational interference.
+* **Full SDLC Ownership:** Authoring end-to-end documentation suites (BRD, FSD, SDD, User Manuals) to bridge operational requirements with technical delivery[cite: 1].
+* **Risk & Controls Architecture:** Designing and implementing robust regulatory controls (15 Audit/Process Controls) in high-risk Wholesale Payment & International Trade environments[cite: 1].
 
 ---
