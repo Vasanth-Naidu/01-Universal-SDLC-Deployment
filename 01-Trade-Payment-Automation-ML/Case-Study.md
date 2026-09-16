@@ -16,6 +16,9 @@ Trade Operations specialists processing international trade documentation (`Lett
 
 While TPS was a modern platform, it was still settling down in terms of frontline user experience (UX). Due to massive daily transaction volumes, high screen refresh rates, and multi-tab navigation pathways, operators experienced significant input latency per trade.
 
+### AS-IS Manual Operational Process
+![TradeExpress ML Engine AS-IS Process](./assets/TradeExpress%20ML%20Engine%20AS-IS-Process.png)
+
 * **UI Refresh Rates & Screen Navigation Lag:** As a newly launched platform processing high-density transaction payloads, navigating between nested tabs and waiting for screen refreshes created operational friction and slowed down daily processing velocity.
 * **Repetitive Master Data Entry:** Analysis revealed that over 70% of weekly trade transactions originated from recurring institutional clients with consistent Beneficiary Banks, Issuing Banks, Advising Banks, and LC terms. Manually re-keying identical static/semi-static data daily was non-value-added (NVA) and increased exposure to manual typos.
 * **Maker-Checker Bottlenecks:** Manual data entry across 70+ data fields per transaction created potential operational risk, requiring extensive review cycles between Makers and Checkers before final system submission.
@@ -142,6 +145,9 @@ A primary objective of enterprise-grade Intelligent Automation governance is ens
 | **Maker-Checker QA Time** | 10–15 minutes manual review per trade | 5 minutes visual check | **50%–65% Faster Review Cycles** |
 | **Audit & Defect Rate** | High risk of typos & address errors | 0% syntax errors across auto-populated fields | **100% Audit & Control Adherence**[cite: 5, 8] |
 | **Platform Absorption** | Tactical floor automation bridge | Absorbed after 12 months into native TPS | **Zero Technical Debt & Full Product Lifecycle Management**[cite: 8] |
+
+### Executive Impact & Key Benefits
+![TradeExpress ML Engine Benefits](./assets/TradeExpress%20ML%20Engine%20Benefits.png)
 
 ---
 
