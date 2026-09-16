@@ -55,6 +55,10 @@
 ---
 
 ### Key Project Case Studies
-* 📁 **[01: TradeExpress ML Engine — High-Volume Trade Processing & 15-Control Risk Governance Engine](./01-Trade-Payment-Automation-ML/Case-Study.md)**
+* 🚀 **[TradeExpress ML Engine: 15-Control Risk Governance Engine](./01-Trade-Payment-Automation-ML/Case-Study.md)**  
+  *Automated complex trade payment transaction repairs, reduced manual processing time by 85%, and embedded automated IS control compliance.*
+
+* 🛠️ **[PNS Legacy UDT Technical Rescue: Code Forensics & Risk Remediation](./02-PNS-Legacy-UDT-Rescue/02-PNS-Legacy-UDT-Rescue.md)**  
+  *Delivered USD 0.33 MM in direct cost avoidance by reverse-engineering 28,000+ lines of un-documented legacy VBA code, reconstructing the AS-IS BRD, and eliminating severe JPMC compliance red flags.*
 
 ---
