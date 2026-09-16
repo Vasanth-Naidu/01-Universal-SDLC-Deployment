@@ -13,6 +13,9 @@
 ### The Legacy UDT Crisis:
 Built in 2008, the **PNS Tool** was a critical UDT designed to automate transaction entries from prepped Ms-Excel operational files directly into mainframe terminals. Over a decade later, operations became 100% dependent on this tool for daily execution.
 
+### Code Forensics & Risk Remediation Pathway
+![PNS Code Forensics Workflow](./Assets/PNS-Code-Forensics-Workflow.png)
+
 During an Executive Review, the tool was identified as an un-governed, high-risk single point of failure (SPOF):
 * **The "Tangled Wool Ball" Codebase:**
   * The original developer had left the firm, and no technical documentation existed. Because the tool was originally written by an untrained developer, it completely lacked coding standards, structured variable naming, or code comments.
@@ -87,6 +90,9 @@ As the **UDT Champion for WPO** & Tech-Ops-Bridge, stepped in as an established 
 ---
 
 ## 5. Measurable Business Results & Impact:
+
+### Executive Results & Risk Remediation Impact
+![PNS Executive Impact Dashboard](./Assets/PNS-Executive-Impact-Dashboard.jpeg)
 
 | Pillar / Dimension | AS-IS Legacy State (2008 UDT) | TO-BE Target State (Remediated Platform) | Business Impact |
 | --- | --- | --- | --- |
