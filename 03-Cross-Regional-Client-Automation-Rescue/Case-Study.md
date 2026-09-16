@@ -74,6 +74,8 @@ To satisfy multi-regional regulatory frameworks, engineered a dual-layer encrypt
 └────────────────────────────────────────────────────────────────────────────────────────┘
 
 ```
+![Project 03 Architecture and Security Diagram](./assets/03-Architecture-Security-Diagram.jpeg)
+
 ---
 
 ## 4. Execution Roadmap & Turnaround Phases:
@@ -92,6 +94,8 @@ To satisfy multi-regional regulatory frameworks, engineered a dual-layer encrypt
 | **Policy Exception** | BOT CoE Policy Prohibited External Emails | **First & Only Approved External Email BOT** | Enterprise Governance Precedent Established |
 | **Client Relationship** | Stalled engagement with a **Top-5 Global Financial Institution** | 100% UAT Satisfaction & Relationship Stabilised | Protection & Retention of Tier-1 Mega-Cap Account |
 | **Governance Sign-offs** | Unstructured Requests & Blocked by Regional Mandates | **100% Sign-Off from 5 Independent Entities** | Complete Alignment across US & China Legal, Compliance (OCM & CCOR) and Branch Operations |
+
+![Project 03 Governance Approval Flow](./assets/03-Governance-Approval-Flow.jpeg)
 
 ---
 
