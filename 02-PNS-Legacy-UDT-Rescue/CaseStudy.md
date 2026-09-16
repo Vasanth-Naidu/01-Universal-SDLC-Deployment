@@ -1,4 +1,4 @@
-# Case Study: PnS Legacy UDT Technical Rescue — Code Forensics, Mainframe De-risking & Risk Remediation
+# Case Study: PNS Legacy UDT Technical Rescue — Code Forensics, Mainframe De-risking & Risk Remediation
 
 ## Executive Overview:
 * **Enterprise Context:** Global Financial Institution (Wholesale Payments & Trade Operations - WPO)
