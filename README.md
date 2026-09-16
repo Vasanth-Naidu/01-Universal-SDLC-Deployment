@@ -54,7 +54,7 @@
 
 ---
 
-### Key Project Case Studies
+### Key Project Case Studies:
 * 🚀 **[TradeExpress ML Engine: 15-Control Risk Governance Engine](./01-Trade-Payment-Automation-ML/Case-Study.md)**  
   *Automated complex trade payment transaction repairs, reduced manual processing time by 85%, and embedded automated IS control compliance.*
 
