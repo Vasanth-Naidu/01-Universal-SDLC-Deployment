@@ -56,12 +56,14 @@ To move beyond static reporting, we engineered a robust Dimensional Data Model (
 └────────────────────────────────────────────────────────────────────────────────────────┘
 
 ```
+
+![Project 05 Technical Architecture & Dimensional Star Schema](./Assets/05-LE-Coverage-Architecture.jpeg)
+
 ---
 
 ## 3. The 7 Curated Analytical Facets & Interactive UX:
 
 Designed specifically from the viewpoints of **2LOD Leadership** and **Internal Audit/ Regulatory Reviewers**, the suite features **12–15 top-level filter controls** and **click-sensitive visual drill-downs**:
-
 * **Perspective 1: Enterprise Executive Risk Dashboard (Firmwide Infogram):** Macro-level view for 2LOD Leadership and Internal Audit showing total global LE coverage, overall control health, and high-level OCC mandate compliance.
 * **Perspective 2: Regional & Legal Entity (LE) Hierarchy Heatmap:** Dynamic matrix mapping audit status across global LE's and geographic branches, featuring multi-layered visual filters to drill down into High, Medium, and Low severity controls seamlessly.
 * **Perspective 3: Audit Lifecycle & Bottleneck Triage:** Executive operational view tracking stage progression (Unassigned, In-Progress, Stuck, Pending Remediation) to drive Monday morning allocation decisions.
@@ -69,6 +71,8 @@ Designed specifically from the viewpoints of **2LOD Leadership** and **Internal 
 * **Perspective 5: Auditor Bandwidth & Capacity Distribution:** Resource management view evaluating auditor allocation, open workload concentration, and productivity metrics across regional teams.
 * **Perspective 6: Regulatory Exam & OCC Audit Readiness Pack:** Curated view designed specifically for Internal Audit and OCC examiners, providing end-to-end data lineage, historical completion proof, and sample-testing documentation.
 * **Perspective 7: Missing LE Connections & Source Data Integrity Alerts:** Governance view isolating broken database joins, unmapped clients, and incomplete onboarding records for 2LOD escalation to Branch Operations maintenance teams.
+
+![Monday Triage & 7 Analytical Perspectives Workflow](./Assets/05-Monday-Triage-Workflow.jpeg)
 
 ---
 
