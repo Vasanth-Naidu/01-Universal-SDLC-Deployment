@@ -65,9 +65,9 @@ Standard technology enhancement cycles were too long to address the immediate cr
 
 ## 4. Execution Roadmap & Full SDLC Governance Under Urgency:
 
-* **Phase 1: Emergency Prototype & War Room Deployment (Days 01–03):** Ingested verbal requirements over the weekend, constructed the VBA engine, and delivered the initial functional risk tracker for Monday morning operations.
+* **Phase 1: Emergency Prototype & War Room Deployment (Days 01–03):** Ingested verbal requirements over the weekend, constructed the VBA engine, registered the interim solution under the enterprise User-Developed Tool (UDT) governance framework, and delivered the initial functional risk tracker for Monday morning operations.[cite: 5]
 * **Phase 2: Operational Tuning & Requirements Formalisation (Weeks 01–02):** Supported daily War Room sessions, refined parsing logic for the ~100 account watchlist, and authored formal Business Requirement Documents (BRD) and Solution Design Documents (SDD).
-* **Phase 3: Production Bot Engineering & SDLC Onboarding (Weeks 03–04):** Led an IA engineer to build a production-grade Automation Anywhere (AA) bot based on the finalised BRD. Executed formal User Acceptance Testing (UAT), secured operational sign-offs, and registered the bot in the official enterprise Bot Inventory.
+* **Phase 3: Production Bot Engineering, SDLC Onboarding & UDT Decommission (Weeks 03–04):** Led an IA engineer to build a production-grade Automation Anywhere (AA) bot based on the finalised BRD. Executed formal UAT, secured operational sign-offs, registered the bot in the official enterprise Bot Inventory, and formally decommissioned the emergency MS-Excel UDT to adhere to Firmwide Information Security (IS) standards.[cite: 5]
 * **Phase 4: Extended Operational Hypercare & Active SME Support (Months 01–09):** Embedded within daily War Room triage calls for 9 months as the **active technical lead and subject matter expert**. Actively fielded operational queries, validated data accuracy by auditing raw input files against bot execution logic, conducted root-cause analysis on anomalies, and adapted automation rules to shifting regulatory guidelines.
 
 ---
@@ -78,7 +78,7 @@ Standard technology enhancement cycles were too long to address the immediate cr
 | --- | --- | --- | --- |
 | **Response Speed** | Manual multi-day data aggregation | Working POC in **36 Hours**; Daily automated pre-market delivery | Immediate operational readiness during a global emergency |
 | **Targeted Coverage** | Fragmented regional spreadsheets | **100% Tracking across ~100 High-Risk Accounts** | Max net exposure isolated and delivered prior to market open |
-| **Governance Compliance** | Unstructured crisis workarounds | **100% Firmwide SDLC Compliant** (BRD, SDD, Bot Inventory Onboarded) | Full auditability and regulatory alignment under emergency conditions |
+| **Governance Compliance** | Unstructured crisis workarounds | **100% Enterprise SDLC & IS Compliant** | Interim UDT registered; AA Bot onboarded to inventory with 100% formal UDT decommission |
 | **Operational Support** | Manual triage overhead for Ops | **9 Months Continuous Hypercare** in daily War Rooms | Sustained long-term partnership and risk mitigation |
 
 ---
