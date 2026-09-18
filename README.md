@@ -64,6 +64,6 @@
 * ⚡ **[Cross-Regional Client Automation & Regulatory Approval Rescue](./03-Cross-Regional-Client-Automation-Rescue/Case-Study.md)**  
   *Rescued a 2-year deadlocked initiative for a Top-5 Global Financial Institution, aligning US and China Legal, Compliance (OCM & CCOR), and Branch Operations to secure the firm's first-ever compliance exception for fully automated external email bot dispatch.*
 
----
+
 
 ---
