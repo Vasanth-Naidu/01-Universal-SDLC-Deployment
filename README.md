@@ -61,4 +61,9 @@
 * 🛠️ **[PNS Legacy UDT Technical Rescue: Code Forensics & Risk Remediation](./02-PNS-Legacy-UDT-Rescue/CaseStudy.md)**  
   *Delivered USD 0.33 MM in direct cost avoidance by reverse-engineering 28,000+ lines of un-documented legacy VBA code, reconstructing the AS-IS BRD, and eliminating severe JPMC compliance red flags.*
 
+* ⚡ **[Cross-Regional Client Automation & Regulatory Approval Rescue](./03-Cross-Regional-Client-Automation-Rescue/Case-Study.md)**  
+  *Rescued a 2-year deadlocked initiative for a Top-5 Global Financial Institution, aligning US and China Legal, Compliance (OCM & CCOR), and Branch Operations to secure the firm's first-ever compliance exception for fully automated external email bot dispatch.*
+
+---
+
 ---
