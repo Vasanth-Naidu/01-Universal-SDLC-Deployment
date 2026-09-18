@@ -66,5 +66,10 @@
 
 * ❄️ **[Project Elsa: Crisis Response Automation & Risk Exposure Engine](./04-Crisis-Response-Risk-Automation/Case-Study.md)**  
   *Engineered a 36-hour weekend VBA prototype → turned SDLC-compliant Automation Anywhere (AA) bot for Wholesale Payments Operations. Tracked maximum financial risk exposure across ~100 high-risk accounts during a global geopolitical crisis, providing 9 months of continuous daily War Room triage support.*
+  
+* ⚖️ **[2LOD CCOR Legal Entity Risk & Control Audit Coverage Engine](./05-CCOR-Legal-Entity-Risk-Coverage/Case-Study.md)**  
+  *Architected a multi-year Agile analytics engine (~12–15 releases over 2–3 month sprints) using Alteryx direct SQL ETL and Tableau to drive weekly 2LOD executive triage for OCC compliance. Engineered a Star Schema data model with embedded predictive velocity forecasting, automated lineage validation, broken LE link detection, and independent 2LOD remediation re-audits delivered across 7 Curated Analytical Facets under strict RBAC.*
+
+
 
 ---
