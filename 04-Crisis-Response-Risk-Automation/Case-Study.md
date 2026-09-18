@@ -60,6 +60,7 @@ Standard technology enhancement cycles were too long to address the immediate cr
 └────────────────────────────────────────────────────────────────────────────────────────┘
 
 ```
+![Project Elsa Target System Architecture](./Assets/04-Emergency-Triage-Architecture.jpeg)
 
 ---
 
@@ -80,6 +81,8 @@ Standard technology enhancement cycles were too long to address the immediate cr
 | **Targeted Coverage** | Fragmented regional spreadsheets | **100% Tracking across ~100 High-Risk Accounts** | Max net exposure isolated and delivered prior to market open |
 | **Governance Compliance** | Unstructured crisis workarounds | **100% Enterprise SDLC & IS Compliant** | Interim UDT registered; AA Bot onboarded to inventory with 100% formal UDT decommission |
 | **Operational Support** | Manual triage overhead for Ops | **9 Months Continuous Hypercare** in daily War Rooms | Sustained long-term partnership and risk mitigation |
+
+![Project Elsa Dual-Track Delivery Timeline](./Assets/04-Dual-Track-Delivery-Timeline.jpeg)
 
 ---
 
