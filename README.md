@@ -64,6 +64,7 @@
 * ⚡ **[Cross-Regional Client Automation & Regulatory Approval Rescue](./03-Cross-Regional-Client-Automation-Rescue/Case-Study.md)**  
   *Rescued a 2-year deadlocked initiative for a Top-5 Global Financial Institution, aligning US and China Legal, Compliance (OCM & CCOR), and Branch Operations to secure the firm's first-ever compliance exception for fully automated external email bot dispatch.*
 
-
+* ❄️ **[Project Elsa: Crisis Response Automation & Risk Exposure Engine](./04-Crisis-Response-Risk-Automation/Case-Study.md)**  
+  *Engineered a 36-hour weekend VBA prototype → turned SDLC-compliant Automation Anywhere (AA) bot for Wholesale Payments Operations. Tracked maximum financial risk exposure across ~100 high-risk accounts during a global geopolitical crisis, providing 9 months of continuous daily War Room triage support.*
 
 ---
