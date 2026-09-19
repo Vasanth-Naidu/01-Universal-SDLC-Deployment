@@ -71,9 +71,14 @@
   *Architected a multi-year Agile analytics engine (~12–15 releases) using Alteryx direct SQL ETL and Tableau for weekly OCC compliance triage. Engineered a Star Schema model with predictive velocity forecasting, automated lineage validation, broken LE link detection, and independent 2LOD re-audits across 7 Curated Analytical Facets under strict RBAC.*
 
 * ⚙️ **[CCOR 2LOD M&T Intelligent Automation & Audit Analytics Control Ecosystem](./06-CCOR-2LOD-Intelligent-Automation-Ecosystem/Case-Study.md)**  
-  *Architected a multi-source Alteryx ETL and 5-tab Tableau Executive Control Suite to ring-fence the full IA Automation and Analytics Book of Work for CCOR 2LOD M&T India. Standardised JIRA tracking, deployed predictive developer capacity modelling, migrated legacy assets to Tableau Server, and enforced 100% Firmwide IS registration and artifact compliance.*
+  *Architected a multi-source Alteryx ETL and 5-tab Tableau Executive Control Suite to ring-fence the full IA Automation and Analytics Book of Work for CCOR 2LOD M&T India. Standardised JIRA tracking, deployed predictive developer capacity modelling, migrated legacy assets to Tableau Server, and enforced 100% Firmwide IS registration and artifact compliance.* <br>
 `Alteryx` • `Tableau Server` • `JIRA API` • `Firmwide IS Governance` • `Capacity Planning` • `Jaro-Winkler Fuzzy Matching`
 
+* 🤖 **[Enterprise Bot Governance & Compliance Control Engine (800+ Application Portfolio)](./07-Enterprise-Bot-Governance-Analytics/Case-Study.md)**  
+  *Orchestrated a 2-phase governance program across Wholesale Payment Operations to clean, register, reverse-engineer SDLC docs, and certify 800+ bot solutions in 7 months (2 months early). Deployed fuzzy-matching ownership models, usage recency analytics, and global stakeholder engagement across APAC, EMEA, and WHEM to achieve 100% Firmwide IS compliance and OCC audit readiness.* <br>
+  `Alteryx` • `Tableau Server` • `Portfolio Governance` • `Fuzzy Matching` • `Usage Recency Delta` • `100% IS Certification`
+
+---  
 
 
 
