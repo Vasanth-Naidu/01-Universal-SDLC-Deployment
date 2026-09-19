@@ -71,11 +71,11 @@ To resolve these challenges, a multi-source automated governance ecosystem was e
 4. **Enterprise Employee Directory DB:** Maps employee IDs, reporting hierarchies, team structures, and location metadata across 2LOD M&T verticals.
 5. **Dynamic Legal Entity (LE) Master DB:** Maps project deliverables to specific legal entities, business units, and regulatory jurisdictions.
 
-![Project 06 5-Tab Executive Control Suite Workflow](./Assets/06-IA-Control-Suite-Workflow.jpeg)
-
 ---
 
 ## 3. Deep Dive: The 5-Tab Tableau Executive Control Suite:
+
+![Project 06 5-Tab Executive Control Suite Workflow](./Assets/06-IA-Control-Suite-Workflow.jpeg)
 
 ### Tab 1: IA Project Pipeline & IS Eligibility Control:
 * **Data Mechanics:** Alteryx merges JIRA project data with the Employee DB and LE Master DB.
