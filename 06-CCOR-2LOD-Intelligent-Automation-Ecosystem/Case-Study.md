@@ -52,6 +52,8 @@ To resolve these challenges, a multi-source automated governance ecosystem was e
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+![Project 06 Data Architecture & Ecosystem Flow](./Assets/06-IA-Ecosystem-Architecture.jpeg)
+
 ---
 
 ## 2. Technical Stack & Data Source Integration:
@@ -68,6 +70,8 @@ To resolve these challenges, a multi-source automated governance ecosystem was e
 3. **Firmwide IS Tool Inventory Data Dumps:** Ingests enterprise tool registrations, mapping primary/ secondary application owners, developer alignments, IS champions, and certification lifecycle states.
 4. **Enterprise Employee Directory DB:** Maps employee IDs, reporting hierarchies, team structures, and location metadata across 2LOD M&T verticals.
 5. **Dynamic Legal Entity (LE) Master DB:** Maps project deliverables to specific legal entities, business units, and regulatory jurisdictions.
+
+![Project 06 5-Tab Executive Control Suite Workflow](./Assets/06-IA-Control-Suite-Workflow.jpeg)
 
 ---
 
