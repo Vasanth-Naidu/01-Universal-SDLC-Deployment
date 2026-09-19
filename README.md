@@ -9,8 +9,8 @@
 ---
 
 ## 1. Operational Challenge & Enterprise Scope:
-* **Strict Regulatory Environment:** Operating within Wholesale Payments required zero-tolerance for security gaps, unvetted automation code, or compliance drift[cite: 1].
-* **Massive Bot Portfolio:** Standardizing, auditing, and maintaining Information Security (IS) control standards across 800+ active RPA and Machine Learning solutions[cite: 1].
+* **Strict Regulatory Environment:** Operating within Wholesale Payments required zero-tolerance for security gaps, un-vetted automation code, or compliance drift[cite: 1].
+* **Massive Bot Portfolio:** Standardising, auditing, and maintaining Information Security (IS) control standards across 800+ active RPA and Machine Learning solutions[cite: 1].
 * **Legacy Risk & Derailed Tools:** Mitigating severe security and operational risks from unmonitored User Developed Tools (UDTs) and PNS automation without interrupting live payment processing workflows[cite: 1].
 
 ---
@@ -20,7 +20,7 @@
 ### Execution Steps:
 * **Step 1: Rapid Triage & Opportunity Analysis** – Parachuting into red-status automation projects and identifying high-risk, unmonitored legacy UDT dependencies across Wholesale Payments[cite: 1].
 * **Step 2: Hands-On RPA Architecture & Debugging** – Direct technical intervention across UiPath and Automation Anywhere workflows—refactoring broken exception handling, credential vaults, and queue management[cite: 1].
-* **Step 3: Firmwide IS Control Standardization** – Implementing uniform security controls, data encryption, and execution logs across 800+ active bots[cite: 1].
+* **Step 3: Firmwide IS Control Standardisation** – Implementing uniform security controls, data encryption, and execution logs across 800+ active bots[cite: 1].
 * **Step 4: UDT Risk Remediation & CCOR Alignment** – Executing structured remediation action plans for legacy tools to satisfy Compliance, Conduct, and Operational Risk (CCOR) mandates[cite: 1].
 * **Step 5: OCC Audit Preparedness & Monitoring** – Establishing continuous health monitoring dashboards and Monitoring & Testing (M&T) reporting for regulatory audit readiness[cite: 1].
 
@@ -29,10 +29,10 @@
 ## 3. Key Milestones & Turnaround Highlights:
 
 1. **Parachute PM Interventions:** Stepped into derailed, high-risk automation projects to fix broken logic, unblock cross-functional dependencies, and ensure zero-downtime launches.
-2. **Firmwide IS Control Standards:** Spearheaded the rollout of standardized IS control standards across 800+ RPA solutions, embedding enterprise data protection and audit logging[cite: 1].
+2. **Firmwide IS Control Standards:** Spearheaded the rollout of standardised IS control standards across 800+ RPA solutions, embedding enterprise data protection and audit logging[cite: 1].
 3. **2020 OCC Audit Success:** Partnered with Operations Leads, Controls Managers, and IA Program Teams to drive full audit readiness, achieving a satisfactory OCC IA Audit outcome[cite: 1].
 4. **High-Risk Tool Remediation:** Engineered a Risk Remediation Action Plan for high-risk PNS Automation UDTs, resulting in $325K in cost avoidance[cite: 1].
-5. **Compliance & Risk Dashboards:** Designed a Legal Entity Coverage Dashboard for the CCOR Management Framework and standardized regulatory M&T reporting metrics[cite: 1].
+5. **Compliance & Risk Dashboards:** Designed a Legal Entity Coverage Dashboard for the CCOR Management Framework and standardised regulatory M&T reporting metrics[cite: 1].
 
 ---
 
@@ -59,16 +59,22 @@
   *Automated complex trade payment transaction repairs, reduced manual processing time by 85%, and embedded automated IS control compliance.*
 
 * 🛠️ **[PNS Legacy UDT Technical Rescue: Code Forensics & Risk Remediation](./02-PNS-Legacy-UDT-Rescue/CaseStudy.md)**  
-  *Delivered USD 0.33 MM in direct cost avoidance by reverse-engineering 28,000+ lines of un-documented legacy VBA code, reconstructing the AS-IS BRD, and eliminating severe JPMC compliance red flags.*
+  *Delivered USD 0.33 MM in direct cost avoidance by reverse-engineering 28,000+ lines of Un-Documented legacy VBA code, reconstructing the AS-IS BRD, and eliminating severe JPMC compliance red flags.*
 
 * ⚡ **[Cross-Regional Client Automation & Regulatory Approval Rescue](./03-Cross-Regional-Client-Automation-Rescue/Case-Study.md)**  
   *Rescued a 2-year deadlocked initiative for a Top-5 Global Financial Institution, aligning US and China Legal, Compliance (OCM & CCOR), and Branch Operations to secure the firm's first-ever compliance exception for fully automated external email bot dispatch.*
 
 * ❄️ **[Project Elsa: Crisis Response Automation & Risk Exposure Engine](./04-Crisis-Response-Risk-Automation/Case-Study.md)**  
-  *Engineered a 36-hour weekend VBA prototype → turned SDLC-compliant Automation Anywhere (AA) bot for Wholesale Payments Operations. Tracked maximum financial risk exposure across ~100 high-risk accounts during a global geopolitical crisis, providing 9 months of continuous daily War Room triage support.*
+  *Engineered a 36-hour weekend VBA prototype → turned SDLC-Compliant Automation Anywhere (AA) bot for Wholesale Payments Operations. Tracked maximum financial risk exposure across ~100 high-risk accounts during a global geopolitical crisis, providing 9 months of continuous daily War Room triage support.*
   
 * ⚖️ **[2LOD CCOR Legal Entity Risk & Control Audit Coverage Engine](./05-CCOR-Legal-Entity-Risk-Coverage/Case-Study.md)**  
-  *Architected a multi-year Agile analytics engine (~12–15 releases over 2–3 month sprints) using Alteryx direct SQL ETL and Tableau to drive weekly 2LOD executive triage for OCC compliance. Engineered a Star Schema data model with embedded predictive velocity forecasting, automated lineage validation, broken LE link detection, and independent 2LOD remediation re-audits delivered across 7 Curated Analytical Facets under strict RBAC.*
+  *Architected a multi-year Agile analytics engine (~12–15 releases) using Alteryx direct SQL ETL and Tableau for weekly OCC compliance triage. Engineered a Star Schema model with predictive velocity forecasting, automated lineage validation, broken LE link detection, and independent 2LOD re-audits across 7 Curated Analytical Facets under strict RBAC.*
+
+* ⚙️ **[CCOR 2LOD M&T Intelligent Automation & Audit Analytics Control Ecosystem](./06-CCOR-2LOD-Intelligent-Automation-Ecosystem/Case-Study.md)**  
+  *Architected a multi-source Alteryx ETL and 5-tab Tableau Executive Control Suite to ring-fence the full IA Automation and Analytics Book of Work for CCOR 2LOD M&T India. Standardised JIRA tracking, deployed predictive developer capacity modelling, migrated legacy assets to Tableau Server, and enforced 100% Firmwide IS registration and artifact compliance.*
+`Alteryx` • `Tableau Server` • `JIRA API` • `Firmwide IS Governance` • `Capacity Planning` • `Jaro-Winkler Fuzzy Matching`
+
+
 
 
 
