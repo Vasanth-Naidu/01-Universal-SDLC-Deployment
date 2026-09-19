@@ -46,6 +46,8 @@ The central Firmwide IS Controls CoE mandated strict registration and certificat
 
 ```
 
+![Project 07 Enterprise Bot Governance Architecture](./Assets/07-Bot-Governance-Architecture.jpeg)
+
 ---
 
 ## 2. Deep Dive: Phase 1 & Phase 2 Execution Mechanics:
@@ -75,6 +77,7 @@ To govern 800+ assets with surgical accuracy, several statistical and analytical
 * **Feedback Loop Data Quality Scoring:** Calculated defect-density scores across the central IS database to quantify broken entity links and feed corrective recommendations back to the central Firmwide IS CoE.
 
 ---
+![Project 07 Enterprise Burndown & Global Triage Workflow](./Assets/07-Bot-Governance-Workflow.jpeg)
 
 ## 4. Executive Tableau RAG Control Suite:
 * **View 1: Portfolio Burndown & Velocity Tracker:** Displays overall 2-phase progress, comparing actual registration/ certification curves against weekly target milestones.
