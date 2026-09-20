@@ -63,10 +63,6 @@
 
 * ❄️ **[Project Elsa: Crisis Response Automation & Risk Exposure Engine](./04-Crisis-Response-Risk-Automation/Case-Study.md)**  
   *Engineered a 36-hour weekend VBA prototype → turned SDLC-Compliant Automation Anywhere (AA) bot for Wholesale Payments Operations. Tracked maximum financial risk exposure across ~100 high-risk accounts during a global geopolitical crisis, providing 9 months of continuous daily War Room triage support.*
-  
-* ⚙️ **[CCOR 2LOD M&T Intelligent Automation & Audit Analytics Control Ecosystem](./06-CCOR-2LOD-Intelligent-Automation-Ecosystem/Case-Study.md)**  
-  *Architected a multi-source Alteryx ETL and 5-tab Tableau Executive Control Suite to ring-fence the full IA Automation and Analytics Book of Work for CCOR 2LOD M&T India. Standardised JIRA tracking, deployed predictive developer capacity modelling, migrated legacy assets to Tableau Server, and enforced 100% Firmwide IS registration and artifact compliance.* <br>
-`Alteryx` • `Tableau Server` • `JIRA API` • `Firmwide IS Governance` • `Capacity Planning` • `Jaro-Winkler Fuzzy Matching`
 
 * 🤖 **[Enterprise Bot Governance & Compliance Control Engine (800+ Application Portfolio)](./07-Enterprise-Bot-Governance-Analytics/Case-Study.md)**  
   *Orchestrated a 2-phase governance program across Wholesale Payment Operations to clean, register, reverse-engineer SDLC docs, and certify 800+ bot solutions in 7 months (2 months early). Deployed fuzzy-matching ownership models, usage recency analytics, and global stakeholder engagement across APAC, EMEA, and WHEM to achieve 100% Firmwide IS compliance and OCC audit readiness.* <br>
