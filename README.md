@@ -58,18 +58,12 @@
 * 🚀 **[TradeExpress ML Engine: 15-Control Risk Governance Engine](./01-Trade-Payment-Automation-ML/Case-Study.md)**  
   *Automated complex trade payment transaction repairs, reduced manual processing time by 85%, and embedded automated IS control compliance.*
 
-* 🛠️ **[PNS Legacy UDT Technical Rescue: Code Forensics & Risk Remediation](./02-PNS-Legacy-UDT-Rescue/CaseStudy.md)**  
-  *Delivered USD 0.33 MM in direct cost avoidance by reverse-engineering 28,000+ lines of Un-Documented legacy VBA code, reconstructing the AS-IS BRD, and eliminating severe JPMC compliance red flags.*
-
 * ⚡ **[Cross-Regional Client Automation & Regulatory Approval Rescue](./03-Cross-Regional-Client-Automation-Rescue/Case-Study.md)**  
   *Rescued a 2-year deadlocked initiative for a Top-5 Global Financial Institution, aligning US and China Legal, Compliance (OCM & CCOR), and Branch Operations to secure the firm's first-ever compliance exception for fully automated external email bot dispatch.*
 
 * ❄️ **[Project Elsa: Crisis Response Automation & Risk Exposure Engine](./04-Crisis-Response-Risk-Automation/Case-Study.md)**  
   *Engineered a 36-hour weekend VBA prototype → turned SDLC-Compliant Automation Anywhere (AA) bot for Wholesale Payments Operations. Tracked maximum financial risk exposure across ~100 high-risk accounts during a global geopolitical crisis, providing 9 months of continuous daily War Room triage support.*
   
-* ⚖️ **[2LOD CCOR Legal Entity Risk & Control Audit Coverage Engine](./05-CCOR-Legal-Entity-Risk-Coverage/Case-Study.md)**  
-  *Architected a multi-year Agile analytics engine (~12–15 releases) using Alteryx direct SQL ETL and Tableau for weekly OCC compliance triage. Engineered a Star Schema model with predictive velocity forecasting, automated lineage validation, broken LE link detection, and independent 2LOD re-audits across 7 Curated Analytical Facets under strict RBAC.*
-
 * ⚙️ **[CCOR 2LOD M&T Intelligent Automation & Audit Analytics Control Ecosystem](./06-CCOR-2LOD-Intelligent-Automation-Ecosystem/Case-Study.md)**  
   *Architected a multi-source Alteryx ETL and 5-tab Tableau Executive Control Suite to ring-fence the full IA Automation and Analytics Book of Work for CCOR 2LOD M&T India. Standardised JIRA tracking, deployed predictive developer capacity modelling, migrated legacy assets to Tableau Server, and enforced 100% Firmwide IS registration and artifact compliance.* <br>
 `Alteryx` • `Tableau Server` • `JIRA API` • `Firmwide IS Governance` • `Capacity Planning` • `Jaro-Winkler Fuzzy Matching`
@@ -79,8 +73,6 @@
   `Alteryx` • `Tableau Server` • `Portfolio Governance` • `Fuzzy Matching` • `Usage Recency Delta` • `100% IS Certification`
 
 ---  
-
-
 
 
 ---
