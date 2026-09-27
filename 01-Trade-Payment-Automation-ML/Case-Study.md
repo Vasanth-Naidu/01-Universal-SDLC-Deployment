@@ -1,4 +1,4 @@
-                                                                                                   [🏠 Home](https://github.com/Vasanth-Naidu)   |   [⬆️ Level Up](https://github.com/Vasanth-Naidu/01-Universal-SDLC-Deployment)
+**[🏠 Home](https://github.com/Vasanth-Naidu)**   |   **[↩️ Back to Repository](https://github.com/Vasanth-Naidu/01-Universal-SDLC-Deployment)**
 
 # Case Study: TradeExpress ML Engine — High-Volume Trade Processing & 15-Control Risk Governance Engine:
 
