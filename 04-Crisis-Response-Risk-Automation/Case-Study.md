@@ -1,3 +1,5 @@
+**[🏠 Home](https://github.com/Vasanth-Naidu)**   |   **[↩️ Back to Repository](https://github.com/Vasanth-Naidu/01-Universal-SDLC-Deployment)**
+
 # Case Study: Project Elsa — Crisis Response Automation & High-Risk Exposure Triage Engine:
 
 ## Executive Overview:
@@ -94,3 +96,5 @@ Standard technology enhancement cycles were too long to address the immediate cr
 * **Cross-Functional War Room Leadership:** Partnering closely with global Wholesale Payments Operations, Technology, and Risk teams throughout a 9-month geopolitical contingency.
 
 ---
+
+**[🏠 Home](https://github.com/Vasanth-Naidu)**   |   **[↩️ Back to Repository](https://github.com/Vasanth-Naidu/01-Universal-SDLC-Deployment)**
