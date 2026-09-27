@@ -66,3 +66,7 @@
 * 🤖 **[Enterprise Bot Governance & Compliance Control Engine (800+ Application Portfolio)](./07-Enterprise-Bot-Governance-Analytics/Case-Study.md)**  
   *Orchestrated a 2-phase governance program across Wholesale Payment Operations to clean, register, reverse-engineer SDLC docs, and certify 800+ bot solutions in 7 months (2 months early). Deployed fuzzy-matching ownership models, usage recency analytics, and global stakeholder engagement across APAC, EMEA, and WHEM to achieve 100% Firmwide IS compliance and OCC audit readiness.* <br>
   `Alteryx` • `Tableau Server` • `Portfolio Governance` • `Fuzzy Matching` • `Usage Recency Delta` • `100% IS Certification`
+
+---
+
+**[🏠 Home](https://github.com/Vasanth-Naidu)** 
