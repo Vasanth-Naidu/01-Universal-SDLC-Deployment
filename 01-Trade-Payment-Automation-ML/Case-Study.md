@@ -3,11 +3,11 @@
 # Case Study: TradeExpress ML Engine — High-Volume Trade Processing & 15-Control Risk Governance Engine:
 
 ## Executive Overview:
-* **Enterprise Context:** Global Financial Institution (Wholesale Payments & Trade Operations - WPO)[cite: 5]
-* **Role:** WPO Intelligent Automation Lead (Bangalore Location Lead), Technical Architect & Hands-On Developer[cite: 5]
-* **Impact:** Reduced trade entry latency by 85%+, eliminated repetitive floor data entry friction across global trade specialists, established 100% maker-checker verification integrity, embedded 15 automated compliance/audit controls, and executed full-lifecycle product absorption into core TPS architecture[cite: 5, 8].
+* **Enterprise Context:** Global Financial Institution (Wholesale Payments & Trade Operations - WPO)
+* **Role:** WPO Intelligent Automation Lead (Bangalore Location Lead), Technical Architect & Hands-On Developer
+* **Impact:** Reduced trade entry latency by 85%+, eliminated repetitive floor data entry friction across global trade specialists, established 100% maker-checker verification integrity, embedded 15 automated compliance/audit controls, and executed full-lifecycle product absorption into core TPS architecture.
 * **Lifecycle Duration:** 12 Months Active Floor Execution → Decommissioned inline with Firmwide IS Control Standards Platform Absorption Clause into core application.
-* **Core Stack:** Python (Pattern Mining Engine), MS Access (Dual-Tier Front-End UI / Back-End DB), Automation Anywhere (TPS Navigation Bot), SQL[cite: 5].
+* **Core Stack:** Python (Pattern Mining Engine), MS Access (Dual-Tier Front-End UI / Back-End DB), Automation Anywhere (TPS Navigation Bot), SQL.
 
 ---
 
@@ -32,7 +32,7 @@ While TPS was a modern platform, it was still settling down in terms of frontlin
 As the **Bangalore Location Lead** for the WPO Intelligent Automation team, spearheaded end-to-end delivery of the project while guiding daily team execution and taking direct technical custody of core software components:
 * **Location & Delivery Management:** Managed the Bangalore-based project team on a day-to-day basis, establishing daily operational guidelines, assigning sprint tasks, managing timelines, and aligning delivery milestones with global stakeholders.
 * **Hands-On MS Access Architecture & Development:** Personally designed and developed the dual-tier MS Access application—building both the front-end user interface (UI) and the back-end relational database pattern matching store.
-* **SDLC Documentation & Core Platform Absorption SME:** Personally authored the complete SDLC documentation package—including BRDs, FSDs, SDDs, and User Guides[cite: 11]. When core technology teams initiated platform absorption, authored the formal TPS Absorption Requirement Document and served as the primary Technical SME to guide core engineering teams during native feature integration[cite: 11].
+* **SDLC Documentation & Core Platform Absorption SME:** Personally authored the complete SDLC documentation package—including BRDs, FSDs, SDDs, and User Guides. When core technology teams initiated platform absorption, authored the formal TPS Absorption Requirement Document and served as the primary Technical SME to guide core engineering teams during native feature integration.
 
 ---
 
@@ -119,11 +119,11 @@ To satisfy stringent regulatory frameworks, internal audit protocols, and Operat
 10. **OFAC & PEP Sanctions Keyword Scrubber:** Scans free-text LC fields against global watchlists for `Office of Foreign Assets Control` (OFAC) embargoed entities/vessels and `Politically Exposed Persons` (PEP) high-risk government individuals to prevent financial crime violations.
 
 #### 3. Access Governance, Escalation & Audit Controls:
-11. **Strict Maker-Checker Separation of Duties (SoD) & Monthly Access Audits:** Hardcoded application logic strictly prevents any Maker from auditing or checking their own transaction entries[cite: 11]. Enforces formal entitlement workflows for dynamic role switches, paired with a mandatory monthly user access audit conducted in direct collaboration with Operational Managers and OCMs (First Line of Defense) to recertify user privileges[cite: 11].
+11. **Strict Maker-Checker Separation of Duties (SoD) & Monthly Access Audits:** Hardcoded application logic strictly prevents any Maker from auditing or checking their own transaction entries. Enforces formal entitlement workflows for dynamic role switches, paired with a mandatory monthly user access audit conducted in direct collaboration with Operational Managers and OCMs (First Line of Defense) to recertify user privileges.
 12. **High-Value Transaction ($1M USD) Manager Escalation:** Any trade transaction equal to or exceeding $1M USD is automatically flagged and routed to a specialized queue for mandatory, rapid pre-execution review by Operational Managers and Risk Leads prior to bot release.
 13. **Human-in-the-Loop Final Submission Gate:** The AA bot is programmatically blocked from executing the final `SUBMIT` button in the core application, forcing human-in-the-loop review and accountability.
 14. **System-Wide Audit Trail Logging:** Logs timestamped actions (Pattern Generation → Maker Selection → Role Authorization → Checker QA → $1M + Escalate → Bot Injection → Human Submit) with specific user IDs for total traceability during regulatory audits.
-15. **RPA Exception Trapping & Dedicated Backup Utility:** The AA bot validates UI loads before entering data, safely rolling back transactions upon screen refresh delays[cite: 11]. Concurrently, deployed a separate, dedicated MS Access background utility that executed automated weekend database backups to restricted network drives, ensuring business continuity and SOX/CSA data custody[cite: 11].
+15. **RPA Exception Trapping & Dedicated Backup Utility:** The AA bot validates UI loads before entering data, safely rolling back transactions upon screen refresh delays. Concurrently, deployed a separate, dedicated MS Access background utility that executed automated weekend database backups to restricted network drives, ensuring business continuity and SOX/CSA data custody.
 
 ---
 
@@ -133,7 +133,7 @@ A primary objective of enterprise-grade Intelligent Automation governance is ens
 
 * **12 Months Production Operational Runway:** Served as the high-velocity operational bridge while core TPS engineering teams stabilized UI refresh rates, optimized database query indexing, and built native API data ingestion pathways.
 * **Firmwide IS Control Standards Compliance:** Maintained 100% compliance attestations, security logging, and access control audit readiness throughout its active deployment lifecycle.
-* **Systematic Remediation & Product Absorption:** Authored the formal requirement specification for TPS absorption and served as the technical SME alongside core Tech teams, transitioning pattern-matching logic, validation rules, and auto-population workflows directly into native TPS code[cite: 11].
+* **Systematic Remediation & Product Absorption:** Authored the formal requirement specification for TPS absorption and served as the technical SME alongside core Tech teams, transitioning pattern-matching logic, validation rules, and auto-population workflows directly into native TPS code.
 * **Decommissioning & Target Date Adherence:** Once native TPS updates were released to production, the automation bot and MS Access DB were systematically decommissioned according to firmwide repository lifecycle guidelines—eliminating operational risk and achieving complete technology product absorption.
 
 ---
@@ -145,8 +145,8 @@ A primary objective of enterprise-grade Intelligent Automation governance is ens
 | **Data Entry Latency** | 15–30 minutes per transaction | 5 minutes (Pattern Selection + Auto Bot Entry) | **65%–80% Processing Time Compression** |
 | **Transaction Field Population** | 70+ fields manually typed per trade | 10–15 inputs required; 70+ fields auto-populated | **90% Reduction in Manual Input Friction** |
 | **Maker-Checker QA Time** | 10–15 minutes manual review per trade | 5 minutes visual check | **50%–65% Faster Review Cycles** |
-| **Audit & Defect Rate** | High risk of typos & address errors | 0% syntax errors across auto-populated fields | **100% Audit & Control Adherence**[cite: 5, 8] |
-| **Platform Absorption** | Tactical floor automation bridge | Absorbed after 12 months into native TPS | **Zero Technical Debt & Full Product Lifecycle Management**[cite: 8] |
+| **Audit & Defect Rate** | High risk of typos & address errors | 0% syntax errors across auto-populated fields | **100% Audit & Control Adherence** |
+| **Platform Absorption** | Tactical floor automation bridge | Absorbed after 12 months into native TPS | **Zero Technical Debt & Full Product Lifecycle Management** |
 
 ### Executive Impact & Key Benefits
 ![TradeExpress ML Engine Benefits](./assets/TradeExpress%20ML%20Engine%20Benefits.png)
@@ -155,11 +155,11 @@ A primary objective of enterprise-grade Intelligent Automation governance is ens
 
 ## 7. Key Competencies Demonstrated:
 
-* **Full-Lifecycle Automation Governance:** Managing automation assets from initial business intake to operational deployment, IS Control compliance, and eventual decommissioning via native platform absorption[cite: 1].
-* **Location & Project Management:** Directing day-to-day operations, task allocation, and delivery guidelines for the Bangalore Intelligent Automation engineering team[cite: 1].
-* **Hands-On Desktop Engineering:** Designing and coding custom 2-tier MS Access front-end interfaces and back-end relational pattern databases[cite: 1].
+* **Full-Lifecycle Automation Governance:** Managing automation assets from initial business intake to operational deployment, IS Control compliance, and eventual decommissioning via native platform absorption.
+* **Location & Project Management:** Directing day-to-day operations, task allocation, and delivery guidelines for the Bangalore Intelligent Automation engineering team.
+* **Hands-On Desktop Engineering:** Designing and coding custom 2-tier MS Access front-end interfaces and back-end relational pattern databases.
 * **Application Maintenance & Zero-Downtime Operations:** Personally managed end-to-end support, ongoing maintenance, and regular weekend tool health checks to guarantee 100% operational availability and prevent weekday downtime or operational interference.
-* **Full SDLC Ownership:** Authoring end-to-end documentation suites (BRD, FSD, SDD, User Manuals) to bridge operational requirements with technical delivery[cite: 1].
-* **Risk & Controls Architecture:** Designing and implementing robust regulatory controls (15 Audit/Process Controls) in high-risk Wholesale Payment & International Trade environments[cite: 1].
+* **Full SDLC Ownership:** Authoring end-to-end documentation suites (BRD, FSD, SDD, User Manuals) to bridge operational requirements with technical delivery.
+* **Risk & Controls Architecture:** Designing and implementing robust regulatory controls (15 Audit/Process Controls) in high-risk Wholesale Payment & International Trade environments.
 
 ---
