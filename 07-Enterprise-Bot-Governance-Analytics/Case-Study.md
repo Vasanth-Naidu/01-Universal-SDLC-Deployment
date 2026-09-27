@@ -1,3 +1,5 @@
+**[🏠 Home](https://github.com/Vasanth-Naidu)**   |   **[↩️ Back to Repository](https://github.com/Vasanth-Naidu/01-Universal-SDLC-Deployment)**
+
 # 🤖 Project 07: Enterprise Automation Portfolio Governance & Compliance Engine (800+ Asset Portfolio)
 
 ## Executive Summary:
@@ -105,3 +107,6 @@ To govern 800+ assets with surgical accuracy, several statistical and analytical
 * **Exponential Domain Expertise:** Hands-on review and documentation reverse-engineering across 800+ solutions expanded Bot CoE SDLC and Firmwide IS Control mastery a hundredfold.
 * **Enterprise Feedback Loop:** Cleaned WPO inventories while providing structural feedback that upgraded the central Firmwide IS database architecture.
 
+---
+
+**[🏠 Home](https://github.com/Vasanth-Naidu)**   |   **[↩️ Back to Repository](https://github.com/Vasanth-Naidu/01-Universal-SDLC-Deployment)**
