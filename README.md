@@ -11,7 +11,7 @@
 ---
 
 ## 1. Operational Challenge & Enterprise Scope:
-* **Strict Regulatory Environment:** Operating within Wholesale Payments required zero-tolerance for security gaps, un-vetted automation code, or compliance drift.
+* **Strict Regulatory Environment:** Operating within Wholesale Payments required zero-tolerance for security gaps, unvetted automation code, or compliance drift.
 * **Massive Bot Portfolio:** Standardising, auditing, and maintaining Information Security (IS) control standards across 800+ active RPA and Machine Learning solutions.
 * **Regulatory & Audit Governance:** Preparing Wholesale Payments Operations for stringent OCC audits and establishing ongoing IS compliance controls.
 
