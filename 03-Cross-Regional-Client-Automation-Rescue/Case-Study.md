@@ -1,3 +1,5 @@
+**[🏠 Home](https://github.com/Vasanth-Naidu)**   |   **[↩️ Back to Repository](https://github.com/Vasanth-Naidu/01-Universal-SDLC-Deployment)**
+
 # Case Study: Cross-Regional Client Automation & Regulatory Approval Rescue — Parachute PM & High-Stakes Stakeholder Alignment
 
 ## Executive Overview:
@@ -107,3 +109,5 @@ To satisfy multi-regional regulatory frameworks, engineered a dual-layer encrypt
 * **Client-Centric Technical Architecture:** Balancing client operational usability with strict corporate Information Security (IS) standards.
 
 ---
+
+**[🏠 Home](https://github.com/Vasanth-Naidu)**   |   **[↩️ Back to Repository](https://github.com/Vasanth-Naidu/01-Universal-SDLC-Deployment)**
